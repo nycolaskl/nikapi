@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+:root{
+    --cor-defundo: #3d0511;
+    --cor-primaria:#000000;
+    --cor-secundária: #ffffff;
+    --cor-terciária: rgba(255, 255, 255, 0.897); 
+    --fonte: "Garamond", sans-serif;
+}
+
+body{
+    background-color: var(--cor-defundo);
+    color: var(--cor-primaria);
+    font-family: var(--fonte);
+    height: 100vh;
+    margin: 0;
+    text-align: justify;
+}
+
+header{
+    background-color: var(--cor-defundo);
+    text-align: center;
+    padding: 1px;
+}
+
+h1{
+    font-size: 2rem;
+    color: var(--cor-defundo);
+    font-weight: 700;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+}
+
+nav a{
+    text-decoration: none;
+
+    color: var(--cor-defundo);
+    margin: 0 2rem 1rem 0rem;
+    font-size: 1.2rem;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    transform: scale(0.90);
+    transition: transform 0.1s;
+}
+
+.grafico{
+    margin-top: 3rem;
+}
+
+#graficos-container{
+    margin: 5rem;
+}
+
+.graficos-container__texto{
+    font-size: 1.3rem;
+    text-align: justify;
+    padding: 2rem;
+    border: var(--cor-secundária) solid 2px;
+}
+
+span{
+    font-weight: bold;
+    color: var(--cor-terciária);
+
+}
+
+
+
+body {
+    margin-left: 20px;
+    margin-right: 10px;
+    background:linear-gradient(90deg, rgba(255, 0, 0, 0.596), rgba(255, 0, 0, 0.616));
+    text-align: justify;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    text-align: center;
+    background:linear-gradient(90deg, rgb(255, 255, 255), rgb(255, 255, 255));
+}
+
+footer{
+    background:linear-gradient(90deg, rgb(0, 0, 0), rgb(0, 0, 0));
+    text-align: justify;
+}
+
+.rodape {
+    background-color: rgb(10, 5, 78);
+    text-align: center;
+}
